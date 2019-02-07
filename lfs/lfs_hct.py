@@ -80,8 +80,3 @@ def LF_hemorrhage_hi_cover(report):
     if LF_positive_hemorrhage(report) == 0 and LF_positive_hematoma(report) == 0:
         return NO_HEMORRHAGE_VAL
     return HEMORRHAGE_VAL
-
-LFs = [
-    LF_normal_V01, LF_normal_V02, LF_normal_V03, LF_normal_V04,
-    LF_positive_hemorrhage, LF_positive_hematoma, LF_hemorrhage_hi_cover
-] 
