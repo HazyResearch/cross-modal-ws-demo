@@ -29,7 +29,6 @@ def LF_normal_V02(report):
             return NO_HEMORRHAGE_VAL
     return ABSTAIN_VAL 
 
-
 def LF_normal_V03(report):
     """
     Checking for specific normal phrase
@@ -39,7 +38,6 @@ def LF_normal_V03(report):
         if r.search(s.text):
             return NO_HEMORRHAGE_VAL
     return ABSTAIN_VAL 
-
 
 def LF_normal_V04(report):
     """

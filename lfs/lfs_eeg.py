@@ -183,7 +183,6 @@ def lf_normal_interp_not_seizure(report):
 
     return ABSTAIN_VAL
 
-
 def lf_abnormal_interp_with_seizure(report):
     """
     Searching for abnormal interpretation section with seizure synonym
@@ -210,8 +209,6 @@ def lf_abnormal_interp_with_seizure(report):
         return ABSTAIN_VAL   
     else:
         return ABSTAIN_VAL
-
-
 
 def lf_findall_interp_with_seizure(report):
     """
@@ -258,7 +255,6 @@ def lf_findall_abnl_interp_without_seizure(report):
         else:
             return ABSTAIN_VAL
 
-
 def lf_abnl_interp_negexsp_seizure(report):
     """
     Check if top interpretation section is abnormal and if so,
@@ -283,8 +279,6 @@ def lf_findall_interp_negex_seizure(report):
         return eval_interp_with_negex(candtext)
     else:
         return ABSTAIN_VAL
-
-
 
 def lf_seizure_section(report):
     """
@@ -335,7 +329,6 @@ def lf_impression_section_positive(report):
         return SEIZURE_VAL
     else:
         return ABSTAIN_VAL
-    
     
 def lf_spikes_in_impression(report):
     """
