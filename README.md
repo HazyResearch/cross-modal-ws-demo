@@ -11,3 +11,5 @@ Steps to set up the tutorial are as follows:
 (4) Open the `openi_demo/openi_demo.ipynb` notebook
 
 (5) Enjoy the tutorial!
+
+Labeling functions (LFs) for each application studied in our recent work can be found in the `lfs` directory.
