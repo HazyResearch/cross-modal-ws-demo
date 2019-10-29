@@ -11785,7 +11785,7 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>This tutorial demonstrates how to use the <em>cross-modal data programming</em> technique described in Dunnmon and Ratner, et al. (2019) to build a Convolutional Neural Network (CNN) model for chest radiograph triage with no hand-labeled training data that performs similarly to a CNN supervised using several thousand data points labeled by radiologists.</p>
 <p>In cross-modal data programming, we model and combine expert-provided heuristics written over an auxiliary modality (e.g. a text report), which is only available at training time, to create probabilistic labels for training a machine learning model over a target modality (e.g. a chest radiograph).</p>
-<p>Below, we provide a step-by-step walkthrough of how to apply this technique to a small, publicly available chest radiograph dataset.  This process is equivalent to that followed for each dataset in our 2019 NPJ Digital Medicine submission.</p>
+<p>Below, we provide a step-by-step walkthrough of how to apply this technique to a small, publicly available chest radiograph dataset.  This process is equivalent to that followed for each dataset in our 2019 submission.</p>
 <p>We use high-level APIs from the <a href="https://github.com/HazyResearch/metal">Snorkel MeTaL</a> software package (imported as <code>metal</code>) to support heuristic development and model training.  Additional documentation and information about the underlying techniques can be found in papers from <a href="https://arxiv.org/pdf/1605.07723.pdf">NeurIPS 2016</a>, <a href="http://www.vldb.org/pvldb/vol11/p269-ratner.pdf">VLDB 2017</a>, and <a href="https://arxiv.org/pdf/1810.02840.pdf">AAAI 2019</a>, or at <a href="snorkel.stanford.edu">snorkel.stanford.edu</a></p>
 
 </div>
@@ -12610,7 +12610,7 @@ weak labels.</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Because we have ground-truth labels for the entire dataset in this case (the OpenI dataset comes with these labels, which require physicians to label thousands of images!), we can compare how well our weakly supervised target modality modeldoes with the performance we achieve from a fully supervised model.  This is a similar analysis to that performed in our 2019 NPJ Digital Medicine submission.</p>
+<p>Because we have ground-truth labels for the entire dataset in this case (the OpenI dataset comes with these labels, which require physicians to label thousands of images!), we can compare how well our weakly supervised target modality model does with the performance we achieve from a fully supervised model.  This is a similar analysis to that performed in our 2019 submission.</p>
 <p>Executing this requires a simple change to the training dataloader to provide it with ground-truth labels.</p>
 
 </div>
